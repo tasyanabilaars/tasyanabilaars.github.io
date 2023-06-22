@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Konversi Temperatur</title>
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h4 class="text-center mx-auto">Konversi Temperatur Celcius dan Fahrenheit</h4>
+        <div class="container mt-3">
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <input type="text" class="form-control" id="celcius" placeholder="Masukkan Nilai Celcius">
+                    <button type="button" class="btn btn-danger mt-3" name="konversi" onclick="fah()">Konversi</button>  
+                    <input type="text" class="form-control mt-3" id="fahrenheit" placeholder="Hasil Konversi Fahrenheit">
+                    <textarea class="form-control mt-3" name="" cols="15" rows="10">Rumus : Suhu * (9 / 5 ) + 32;</textarea>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+    justify-content: center;
+}
+
+h4 {
+    padding-top: 6rem;
+    font-style: bold;
+    font-size: 32px;
+}
+
+.row {
+    justify-content: center;
+}
